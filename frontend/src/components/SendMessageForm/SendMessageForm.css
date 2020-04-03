@@ -1,0 +1,42 @@
+.Picker {
+  display: none;
+  padding: 0 15px 20px;
+}
+
+.emoji-picker-react {
+  width: 100% !important;
+  border-radius: 20px !important;
+}
+
+.Form-control {
+  height: 43px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: none;
+}
+
+.Form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.inputs-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.file-add-wrap {
+  position: absolute;
+  left: 91%;
+  z-index: 100;
+}
