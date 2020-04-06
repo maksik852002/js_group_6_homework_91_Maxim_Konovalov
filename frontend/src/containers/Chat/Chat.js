@@ -22,7 +22,7 @@ class Chat extends Component {
 
   componentDidMount() {
     if (this.props.user) {
-      this.websocket = new ReconnectingWebSocket(`ws://192.168.1.107:8000/messages?Token=${this.props.user.token}`);
+      this.websocket = new ReconnectingWebSocket(`ws://localhost:8000/messages?Token=${this.props.user.token}`);
 
       this.websocket.onmessage = (message) => {
         try {
